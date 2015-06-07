@@ -13,4 +13,31 @@ body {
 
 h1{
 	font-family: 'Dancing Script', cursive;
+	font-size: 85px;
+	margin-top: 0px;
+}
+
+nav {
+	height: 45px;
+	width: 100%;
+	margin:0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float: left;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0px;
+	border-top: solid 2px gray;
+	border-bottom: solid 2px gray;
+	height: 55px;
+}
+
+nav ul li {
+	float: left;
+	font-family: 'EB Garamond', serif;
+	font-size: 40px;
+	margin: 10px;
+	padding: 5px;
 }
