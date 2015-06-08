@@ -19,7 +19,7 @@ h1{
 }
 
 nav {
-	height: 45px;
+	height: 89px;
 	width: 100%;
 	float: left;
 }
@@ -43,4 +43,47 @@ nav ul li {
 }
 #projects{
 	margin-left: 300px;
+}
+
+#main {
+	position: relative;
+	top: 70px;
+}
+
+a {
+	font-family: 'EB Garamond', serif;
+	font-size: 60px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+#fblink{
+	position: absolute;
+	top: 200px;
+	left: 35px;
+}
+
+#instalink{
+	position: absolute;
+	top: 200px;
+	left: 375px;
+}
+#ldInlink{
+	position: absolute;
+	top: 200px;
+	left: 740px;
+}
+
+#fb{
+	float: left;	
+	margin-right: 45px;
+}
+
+#insta{
+	float: left;
+	margin-right: 45px;
+}
+#linkedin{
+	float: left;
 }
