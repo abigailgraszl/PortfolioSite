@@ -87,3 +87,19 @@ a {
 #linkedin{
 	float: left;
 }
+
+#footer{
+	clear: left;
+	margin-top: 500px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 100%;
+	border-top: solid 2px gray;
+	border-bottom: solid 2px gray;	
+	text-align: center;
+	padding-bottom: 5px;
+}
+.p{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+}
