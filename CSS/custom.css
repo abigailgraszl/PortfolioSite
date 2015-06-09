@@ -55,6 +55,7 @@ nav ul li a {
 #main {
 	position: relative;
 	top: 70px;
+	font-family: 'EB Garamond', serif;
 }
 
 .home {
@@ -103,15 +104,86 @@ nav ul li a {
 #coming{
 	font-family: 'EB Garamond', serif;
 	font-size: 55px;
+	color: gray;
 	position: absolute;
 	top: 170px;
 	left: 210px;
 }
 
-#coming h3 {
-	color: white;
-	text-shadow: 2px 2px gray;
+#education{
+	float: left;
+	margin-right: 70px;
 }
+
+#skills{
+	float: left;
+}
+
+
+ .resume{
+ 	font-size: 45px;
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+
+ #AAAjob {
+ 	padding: 0px;
+ 	margin: 0px;
+ 	float: left;
+ 	width: 1000px;
+ }
+
+#Kjob {
+ 	padding: 0px;
+ 	margin-top: 55px;
+ 	margin-bottom: 55px;
+ 	float: left;
+ 	width: 1000px;
+ }
+ #name{
+ 	float:left;
+ 	padding-right: 15px;
+ 	border-right: dashed 2px gray;
+ 	margin-right: 15px;
+ }
+ .time{
+ 	font-size: 20px;
+ 	margin-top: 10px;
+ }
+
+ .time p{
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+
+ .descrip{
+ 	float: left;
+ }
+
+ .descrip ul li {
+ 	font-size: 20px;
+ }
+
+ #workExp{
+ 	float: left;
+ 	margin-bottom: 30px;
+ }
+
+ #lower{
+ 	clear: left;
+ }
+
+ h5{
+ 	font-size: 30px;
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+
+ i{
+ 	font-size: 25px;
+ 	padding: 0px;
+ 	margin: 0px;
+ }
 
 #footer{
 	clear: left;
