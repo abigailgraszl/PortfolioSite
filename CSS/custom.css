@@ -40,7 +40,14 @@ nav ul li {
 	padding: 10px;
 	margin-left: 50px;
 	margin-right: 50px;
+
 }
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
 #projects{
 	margin-left: 300px;
 }
@@ -50,7 +57,7 @@ nav ul li {
 	top: 70px;
 }
 
-a {
+.home {
 	font-family: 'EB Garamond', serif;
 	font-size: 60px;
 	text-decoration: none;
@@ -97,9 +104,9 @@ a {
 	border-top: solid 2px gray;
 	border-bottom: solid 2px gray;	
 	text-align: center;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 }
 .p{
 	font-family: 'EB Garamond', serif;
-	font-size: 20px;
+	font-size: 30px;
 }
