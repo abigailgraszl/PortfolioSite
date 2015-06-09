@@ -95,9 +95,39 @@ nav ul li a {
 	float: left;
 }
 
+#onePic{
+	float: left;
+	margin-right: 46px;
+}
+
+#coming{
+	font-family: 'EB Garamond', serif;
+	font-size: 55px;
+	position: absolute;
+	top: 170px;
+	left: 210px;
+}
+
+#coming h3 {
+	color: white;
+	text-shadow: 2px 2px gray;
+}
+
 #footer{
 	clear: left;
 	margin-top: 500px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 100%;
+	border-top: solid 2px gray;
+	border-bottom: solid 2px gray;	
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#footerProj{
+	clear: left;
+	margin-top: 125px;
 	margin-bottom: 20px;
 	height: 30px;
 	width: 100%;
