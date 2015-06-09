@@ -110,17 +110,45 @@ nav ul li a {
 	left: 210px;
 }
 
+#ResMain {
+	position: relative;
+	top: 70px;
+	font-family: 'EB Garamond', serif;
+}
+
 #education{
 	float: left;
-	margin-right: 70px;
+	margin-right: 120px;
+	padding-left: 80px;
+	padding-bottom: 80px;
+	padding-right: 60px;
+	border-left: dashed 4px #D4AF37;
+	border-bottom: dashed 4px #D4AF37;
+	border-right: dashed 4px #D4AF37;
+
 }
 
 #skills{
 	float: left;
+	padding-right: 50px;
+	padding-left: 30px;
+	margin-left: 30px;
+	border-bottom: dashed 4px #D4AF37;
+	border-right: dashed 4px #D4AF37;
 }
 
+#skills ul li{
+	font-size: 21px;
+	padding: 0px;
+	margin: 0px;
+}
 
- .resume{
+#education p{
+	font-size: 21px;
+	padding: 0px;
+	margin: 0px;
+}
+.resume{
  	font-size: 45px;
  	padding: 0px;
  	margin: 0px;
@@ -128,7 +156,7 @@ nav ul li a {
 
  #AAAjob {
  	padding: 0px;
- 	margin: 0px;
+ 	margin-top: 20px;
  	float: left;
  	width: 1000px;
  }
@@ -147,7 +175,7 @@ nav ul li a {
  	margin-right: 15px;
  }
  .time{
- 	font-size: 20px;
+ 	font-size: 21px;
  	margin-top: 10px;
  }
 
@@ -161,12 +189,14 @@ nav ul li a {
  }
 
  .descrip ul li {
- 	font-size: 20px;
+ 	font-size: 21px;
  }
 
  #workExp{
  	float: left;
  	margin-bottom: 30px;
+ 	border: dashed 4px #D4AF37;
+ 	padding: 15px;
  }
 
  #lower{
