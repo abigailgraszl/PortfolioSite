@@ -116,29 +116,49 @@ nav ul li a {
 	font-family: 'EB Garamond', serif;
 }
 
+ #lower{
+ 	clear: left;
+ 	width: 1030px;
+ 	height: 200px;
+ 	border-right: dashed 4px #D4AF37;
+ 	border-left: dashed 4px #D4AF37;
+ 	border-bottom: dashed 4px #D4AF37;
+ }
+
 #education{
 	float: left;
-	margin-right: 120px;
-	padding-left: 80px;
-	padding-bottom: 80px;
+	width: 30%;
+	padding-left: 130px;
+	padding-bottom: 40px;
 	padding-right: 60px;
-	border-left: dashed 4px #D4AF37;
+	border-right: dashed 4px #D4AF37 ;
+	/*border-left: dashed 4px #D4AF37;
 	border-bottom: dashed 4px #D4AF37;
-	border-right: dashed 4px #D4AF37;
+	border-right: dashed 4px #D4AF37;*/
 
 }
 
 #skills{
 	float: left;
-	padding-right: 50px;
-	padding-left: 30px;
-	margin-left: 30px;
-	border-bottom: dashed 4px #D4AF37;
+	width: 30%;
+	padding-left: 110px;
+	/*border-bottom: dashed 4px #D4AF37;
 	border-right: dashed 4px #D4AF37;
+	margin-left: 60px;
+	padding-left: 60px;
+	padding-bottom: 70px;
+	padding-right: 125px;*/
+	
 }
 
-#skills ul li{
+#skills ul {
 	font-size: 21px;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-align: center;
+}
+#skills ul li{
 	padding: 0px;
 	margin: 0px;
 }
@@ -199,10 +219,6 @@ nav ul li a {
  	padding: 15px;
  }
 
- #lower{
- 	clear: left;
- }
-
  h5{
  	font-size: 30px;
  	padding: 0px;
@@ -238,6 +254,19 @@ nav ul li a {
 	text-align: center;
 	padding-bottom: 20px;
 }
+
+#Resfooter{
+	clear: left;
+	margin-top: 110px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 100%;
+	border-top: solid 2px gray;
+	border-bottom: solid 2px gray;	
+	text-align: center;
+	padding-bottom: 20px;
+}
+
 .p{
 	font-family: 'EB Garamond', serif;
 	font-size: 30px;
